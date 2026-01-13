@@ -1,0 +1,11 @@
+{
+  "ignores": [],
+  "groups": [
+    [
+      "C:/Users/MEZEO/Downloads/7.0.0/pipeline/templates/LunaCompiler/Scripts/Properties/AssemblyInfo.cs"
+    ],
+    [
+      "C:/Users/MEZEO/Downloads/7.0.0/pipeline/templates/LunaCompiler/Scripts/Sources/OtherDummyScript.cs"
+    ]
+  ]
+}

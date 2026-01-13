@@ -1,0 +1,179 @@
+{
+    "BuildID": "d8bdce78-61cf-4a7b-bf7c-9a072058da57",
+    "Command": "project:build",
+    "ProjectID": "cddfc3fdf712a7846870ee485b2556c5",
+    "ProjectStateHash": "b1113b172f208788003cf8e8b11629ae26dab264c8b8afb620761303d5895b60",
+    "StageCompletedAt": 3,
+    "EarliestFatalError": 3,
+    "StartTime": 1768253519971,
+    "EndTime": 1768253527119,
+    "PlaygroundUserID": 31264,
+    "OperatingSystem": "win32",
+    "UnityPackageID": null,
+    "TargetPlatform": "develop",
+    "UnityVersion": "2022.3.62f2",
+    "LunaVersion": "7.0.0",
+    "LogCount": 7,
+    "Logs": [
+        {
+            "LogID": "99d3d9eb-f471-4457-a202-2c469ae1de96",
+            "Order": 4,
+            "Timestamp": 1768253527176,
+            "Stage": 3,
+            "ErrorType": 1,
+            "ErrorCode": "LP3006",
+            "Description": "You are not using the Luna API: Playable.InstallFullGame",
+            "Details": [
+                "You are not using the Luna API: Playable.InstallFullGame. Some ad networks require these calls. Please add these calls to ensure your playable works on all ad networks. Check documentation for more information."
+            ],
+            "DescriptionValues": [
+                "Playable",
+                "InstallFullGame"
+            ],
+            "DetailsValues": [
+                "Playable",
+                "InstallFullGame"
+            ],
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "9c004d54-32bc-440d-a4f5-8af9cc98f73d",
+            "Order": 4,
+            "Timestamp": 1768253527176,
+            "Stage": 3,
+            "ErrorType": 1,
+            "ErrorCode": "LP3015",
+            "Description": "You are not the Game Ended API: LifeCycle.GameEnded",
+            "Details": [
+                "You are not using the Game Ended API: LifeCycle.GameEnded. Some ad networks require this call, please add the event to avoid the ad being rejected."
+            ],
+            "DescriptionValues": [
+                "LifeCycle",
+                "GameEnded"
+            ],
+            "DetailsValues": [
+                "LifeCycle",
+                "GameEnded"
+            ],
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "f93d3995-db6f-42ec-a0d1-d4257725e19a",
+            "Order": 4,
+            "Timestamp": 1768253527176,
+            "Stage": 3,
+            "ErrorType": 3,
+            "ErrorCode": "LP3007",
+            "Description": "You are not using any custom events",
+            "Details": [
+                "You are not using any custom events. It is recommended to use custom events to have a better understanding of the playable."
+            ],
+            "DescriptionValues": [
+                ""
+            ],
+            "DetailsValues": [
+                ""
+            ],
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "2869b6ba-b172-400d-97f6-2841d3444b95",
+            "Order": 4,
+            "Timestamp": 1768253527177,
+            "Stage": 3,
+            "ErrorType": 3,
+            "ErrorCode": "LP3011",
+            "Description": "You are not using any LunaPlaygroundFields attributes.",
+            "Details": [
+                "You are not using any LunaPlaygroundFields attributes, it allows you to configure your playable to different concepts to find the best variation, which can drastically improve playable performance on all ad networks."
+            ],
+            "DescriptionValues": null,
+            "DetailsValues": null,
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "5f93bc08-4ac5-4826-90b0-227c6ff42d44",
+            "Order": 0,
+            "Timestamp": 1768253523234,
+            "Stage": 1,
+            "ErrorType": 2,
+            "ErrorCode": "LP1014",
+            "Description": "We recommend running Runtime Analysis to find and remove all unused code",
+            "Details": [
+                "Navigate to the Runtime Analysis → Code tab to enable code stripping. Before uploading the playable, please make sure to have played all scenario’s of the playable in a development build to make Runtime Analysis work properly."
+            ],
+            "DescriptionValues": [],
+            "DetailsValues": [],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "6ae75db5-850a-49cb-9e16-cdb32141fcb6",
+            "Order": 1,
+            "Timestamp": 1768253523237,
+            "Stage": 1,
+            "ErrorType": 0,
+            "ErrorCode": "LP1032",
+            "Description": "Package(s) is not supported in Luna",
+            "Details": [
+                "Currently package(s) com.unity.timeline are not supported in Luna. We recommend you to remove it and workaround it's functionality."
+            ],
+            "DescriptionValues": [
+                "com.unity.timeline (1.7.7)"
+            ],
+            "DetailsValues": [
+                "com.unity.timeline"
+            ],
+            "LogCount": 1,
+            "LinePosition": 0,
+            "FilePath": "C:/Github/playable-triple-dots/Packages\\manifest.json",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 0
+        },
+        {
+            "LogID": "4dfda6fc-d72d-4efb-98ed-b4f71c34a22e",
+            "Order": 2,
+            "Timestamp": 1768253527119,
+            "Stage": 3,
+            "ErrorType": 0,
+            "ErrorCode": "LP3016",
+            "Description": "Msbuild failed when processing the file 'C:\\Users\\MEZEO\\Downloads\\7.0.0\\pipeline\\templates\\LunaCompiler\\Scripts\\Scripts.csproj' with message: C:\\Users\\MEZEO\\Downloads\\7.0.0\\tools\\msbuild-mono-custom\\Microsoft.Common.CurrentVersion.targets: (1232, 5): The reference assemblies for .NETFramework,Version=v4.7 were not found. To resolve this, install the Developer Pack (SDK/Targeting Pack) for this framework version or retarget your application. You can download .NET Framework Developer Packs at https://aka.ms/msbuild/developerpacks",
+            "Details": null,
+            "DescriptionValues": [
+                "Msbuild failed when processing the file 'C:\\Users\\MEZEO\\Downloads\\7.0.0\\pipeline\\templates\\LunaCompiler\\Scripts\\Scripts.csproj' with message: C:\\Users\\MEZEO\\Downloads\\7.0.0\\tools\\msbuild-mono-custom\\Microsoft.Common.CurrentVersion.targets: (1232, 5): The reference assemblies for .NETFramework,Version=v4.7 were not found. To resolve this, install the Developer Pack (SDK/Targeting Pack) for this framework version or retarget your application. You can download .NET Framework Developer Packs at https://aka.ms/msbuild/developerpacks"
+            ],
+            "DetailsValues": null,
+            "LogCount": 1,
+            "LinePosition": null,
+            "FilePath": "",
+            "ClassName": "",
+            "MemberName": "",
+            "Severity": 1
+        }
+    ]
+}
