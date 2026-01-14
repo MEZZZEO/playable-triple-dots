@@ -197,10 +197,26 @@ MonoBehaviour:
     keywords:
     - UNITY_UI_ALPHACLIP
     - UNITY_UI_CLIP_RECT
-  _usedByLunaBuild: []
+  _usedByLunaBuild:
+  - shaderCompilerPlatform: 5
+    shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - _SUNDISK_SIMPLE
+  - shaderCompilerPlatform: 9
+    shader: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    passType: 0
+    passId: 0
+    subShaderIndex: 0
+    upToDate: 0
+    keywords:
+    - _SUNDISK_SIMPLE
   _includedShaderVariants: []
   _excludedShaderVariants: []
-  version: 12
+  version: 18
   _shaderParsedShaders:
   - ParsedSubShaders:
     - Index: 0
@@ -3219,7 +3235,7 @@ MonoBehaviour:
   _sceneLightData:
     PointLightCount: 0
     SpotLightCount: 0
-    DirectionalLightCount: 0
+    DirectionalLightCount: 2
     LightmapOn: 0
     DirlightmapCombined: 0
     DirectionalCookieExists: 0

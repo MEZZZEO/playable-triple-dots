@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.kyrylokuzyk.primetween": "file:../Assets/Plugins/PrimeTween/internal/com.kyrylokuzyk.primetween.tgz",
     "com.unity.collab-proxy": "2.11.2",
     "com.unity.feature.development": "1.0.1",
     "com.unity.playworks.upp": "file:../../../Users/MEZEO/Downloads/7.0.0/scripts",
