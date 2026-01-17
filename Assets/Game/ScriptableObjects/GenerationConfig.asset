@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60ac41b0da024711ab82e012b7fb4a85, type: 3}
+  m_Name: GenerationConfig
+  m_EditorClassIdentifier: 
+  FillPercent: 0.6
+  MinStackSize: 5
+  MaxStackSize: 8
+  ActiveColorsCount: 3
+  EnsureWinnable: 1
+  MinChainLength: 2
+  GuaranteedMerges: 2
+  CreateColorClusters: 1
+  ClusterProbability: 0.6
+  PlayerStackMinSize: 3
+  PlayerStackMaxSize: 5
+  UseRandomSeed: 1
+  FixedSeed: 12345
+  BlockedCellsPercent: 0

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6d8715920e746f38a4fa69040d8cee9, type: 3}
+  m_Name: PrefabRefs
+  m_EditorClassIdentifier: 
+  HexPiecePrefab: {fileID: 9065068894392097410, guid: a086a2f7599cef34093ad77081965123, type: 3}
+  HexSharedMaterial: {fileID: 2100000, guid: b37f3a98a02d02a4f90ff7258a3fada9, type: 2}
+  CellBackgroundPrefab: {fileID: 9065068894392097410, guid: 75b2c02520de18b42a262160b95787d5, type: 3}
+  TutorialHandPrefab: {fileID: 0}
+  PackshotPrefab: {fileID: 0}
+  DisappearEffectPrefab: {fileID: 0}
